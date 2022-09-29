@@ -1,0 +1,5 @@
+.nav-container {
+    padding: 2rem 0;
+    background-color: var(--color-yellow);
+    border-bottom: 0.1rem solid var(--color-gray);
+}

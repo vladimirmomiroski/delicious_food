@@ -1,0 +1,10 @@
+.product-info {
+    text-align: center;
+}
+
+.product-title {
+    font-family: var(--archivo-font);
+    font-weight: 300;
+    font-size:var(--font-sub-title);
+    margin-bottom:1rem;
+}
