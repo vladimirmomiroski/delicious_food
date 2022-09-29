@@ -2,9 +2,8 @@
     font-size: var(--font-small);
     font-family: var(--roboto-font);
     font-weight: 300;
-    border-radius: var(--border-radius-big);
-    border:3px solid var(--color-orange);
-    padding:0.7rem 0.5rem;
+    border:none;
+    padding:0.8rem;
     background-color: var(--color-white);
     color:var(--color-black);
     outline: none;
@@ -12,4 +11,5 @@
 
 .input::placeholder {
     color:var(--color-black);
+    font-size: var(--font-small-text);
 }

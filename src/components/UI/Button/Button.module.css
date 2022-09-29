@@ -1,0 +1,16 @@
+.button {
+    border:2px solid var(--color-pink);
+    display:inline-block;
+    padding:0.6rem 1.5rem;
+    color:var(--color-pink);
+    font-family: var(--archivo-font);
+    border-radius: var(--border-radius-small);
+    font-weight:500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-pink);
+    transition:0.4s ease-in-out;
+    color:var(--color-white);
+}

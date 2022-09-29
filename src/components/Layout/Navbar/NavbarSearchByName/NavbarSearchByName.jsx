@@ -12,7 +12,7 @@ export default function NavbarSearchByName() {
     useEffect(() => {
         const clearInterval = setTimeout(() => {
               filterByName(nameValue)
-        }, 500)
+        }, 600)
 
         return () => {
             clearTimeout(clearInterval)
@@ -25,7 +25,7 @@ export default function NavbarSearchByName() {
 
   return (
     <>
-    <input className={input} value={nameValue} type="text" placeholder='Search by name...' onChange={valueHandler} />
+    <input className={input} value={nameValue} type="text" placeholder='Search by name...' onChange={valueHandler}></input>
     </>
   )
 }

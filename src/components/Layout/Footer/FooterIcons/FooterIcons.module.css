@@ -1,0 +1,12 @@
+.icons {
+    font-size:var(--font-sub-title);
+}
+
+.icons-link {
+    color:var(--color-white);
+}
+
+.icons-link:not(:first-child) {
+    margin-left: 1.3rem;
+}
+

@@ -4,7 +4,7 @@
 
 .product-title {
     font-family: var(--archivo-font);
-    font-weight: 300;
+    font-weight: 500;
     font-size:var(--font-sub-title);
     margin-bottom:1rem;
 }

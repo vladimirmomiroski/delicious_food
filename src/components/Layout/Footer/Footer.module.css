@@ -1,0 +1,18 @@
+.footer {
+    padding:2.5rem 0;
+    background-color: var(--color-green);
+}
+
+.footer-wrapper {
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    color:var(--color-white);
+    font-family:var(--archivo-font);
+    font-size:var(--font-regular-text);
+}

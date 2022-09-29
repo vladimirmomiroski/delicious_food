@@ -10,7 +10,7 @@ export default function NavbarLogo() {
   return (
     <div onClick={goHomeRoute} className={styles['logo-wrapper']}>
         <img className={styles['logo-image']} src={logo} alt="Food app logo" />
-    <h1 className={styles['logo-title']}>Cooking App</h1>
+    <h1 className={styles['logo-title']}>Goodies</h1>
     
     </div>
   )

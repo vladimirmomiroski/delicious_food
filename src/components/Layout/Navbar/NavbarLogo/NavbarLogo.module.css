@@ -6,13 +6,13 @@
 
 .logo-title {
     font-size: var(--font-title);
-    font-family: var(--roboto-font);
-    color: var(--color-black)
+    font-family: var(--archivo-font);
+    color: var(--color-white);
 }
 
 .logo-image {
     width:60px;
     height:60px;
-    margin-right:0.5rem;
+    margin-right:0.3rem;
 }
 
