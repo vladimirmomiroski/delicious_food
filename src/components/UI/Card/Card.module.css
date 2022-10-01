@@ -1,4 +1,5 @@
 .card {
+    position:relative;
     border-radius: var(--border-radius-small);
     -webkit-box-shadow: 0 0 5px var(--color-gray);
         box-shadow: 0 0 5px var(--color-gray);

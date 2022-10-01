@@ -1,0 +1,27 @@
+.product-info {
+    text-align: center;
+}
+
+.product-title {
+    font-family: var(--roboto-font);
+    font-weight: 700;
+    font-size:var(--font-sub-title);
+    margin:0.5rem 0 1.5rem;
+    background-color: var(--color-gray);
+    padding:0.4rem 0;
+    border-radius: var(--border-radius-big);
+}
+
+.big {
+    width:280px;
+    height:280px;
+}
+
+.small {
+    width:150px;
+    height:150px;
+}
+
+.small, .big {
+    object-fit: cover;
+}

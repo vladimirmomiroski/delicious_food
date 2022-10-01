@@ -1,9 +1,21 @@
 .container {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .country-wrapper {
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    padding:1.5rem 0;
+  margin: 1.5rem 0;
+  display: block;
+  padding: 0.4rem 0.5rem;
+  width:fit-content;
+}
+
+.country-text {
+  font-family: var(--archivo-font);
+  font-size: var(--font-regular);
+  color:var(--color-black);
+}
+
+.country-icon {
+    color: var(--color-black);
+    font-size: var(--font-small-text);
 }

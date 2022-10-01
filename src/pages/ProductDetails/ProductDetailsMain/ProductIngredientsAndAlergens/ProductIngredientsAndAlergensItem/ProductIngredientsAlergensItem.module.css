@@ -1,0 +1,33 @@
+.ingredients-alergens-wrapper {
+    width:49%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-gray);
+    padding:1rem;
+    margin-bottom:2rem;
+}
+
+.ingredients-alergens-items-wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:2rem;
+}
+
+.ingredients-alergens-title {
+    font-size:var(--font-sub-title);
+    font-weight: 700;
+    font-family: var(--archivo-font);
+    color:var(--color-black);
+    border-radius: var(--border-radius-small);
+    padding: 0.3rem;
+    margin: 1rem 0;
+}
+
+.ingredient-alergens-item {
+    margin: 0.2rem;
+    padding: 0.2rem;
+    background-color: var(--color-white);
+    font-family: var(--archivo-font);
+    font-size: var(--font-small-text);
+}

@@ -1,0 +1,8 @@
+.country-box {
+    padding:0.2rem 0.3rem;
+    background-color: var(--color-gray);
+    color:var(--color-black);
+    font-family: var(--archivo-font);
+    font-size: var(--font-small-text);
+    margin:0.3rem 0.2rem;
+}

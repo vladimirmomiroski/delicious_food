@@ -1,0 +1,13 @@
+.country-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.country-title {
+    text-align: center;
+    font-size: var(--font-sub-title);
+    margin: 1rem 0 0.5rem;
+}

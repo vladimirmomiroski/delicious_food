@@ -1,0 +1,23 @@
+.not-found-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+
+.not-found-text {
+    font-family: var(--roboto-font);
+    font-size: var(--font-title);
+    margin-bottom: 1rem;
+}
+
+.button {
+    padding:0.7rem 1rem;
+    border:none;
+    background-color: var(--color-green-light);
+    color: var(--color-white);
+    cursor: pointer;
+    font-family: var(--roboto-font);
+    font-weight: 500;
+}
