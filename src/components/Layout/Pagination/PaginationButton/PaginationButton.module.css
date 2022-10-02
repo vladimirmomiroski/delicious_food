@@ -6,6 +6,7 @@
     font-size:var(--font-text_small);
     font-weight:700;
     font-family: var(--archivo-font);
+    border-radius: var(--border-radius-small);
 }
 
 .button:hover {
