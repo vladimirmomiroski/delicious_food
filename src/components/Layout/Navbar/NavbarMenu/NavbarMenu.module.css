@@ -1,0 +1,5 @@
+.navbar-menu-icon {
+    font-size: var(--font-title);
+    color: var(--color-white);
+    cursor: pointer;
+}

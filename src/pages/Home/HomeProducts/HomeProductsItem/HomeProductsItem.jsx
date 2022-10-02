@@ -10,10 +10,12 @@ import {faLandmark} from '@fortawesome/free-solid-svg-icons'
 
 export default function HomeProductsItem({ product }) {
 
+
+
   const navigate = useNavigate()
 
   const { _id, product_name, image_url, brands, countries } = product;
-  const country = countries.split(",")[0];
+
   
 
   return (
@@ -21,7 +23,7 @@ export default function HomeProductsItem({ product }) {
       <div className={styles['container']}>
         <ProductItemTitle image={image_url} title={product_name} size={'small'} />
         <div className={styles['country-wrapper']}>
-        <p className={styles['country-text']}><FontAwesomeIcon className={styles['country-icon']} icon={faLandmark}/> - {country}</p>
+        <p className={styles['country-text']}><FontAwesomeIcon className={styles['country-icon']} icon={faLandmark}/> - {countries.split(',')[0]}</p>
         </div>
         <ProductItemBrands brands={brands} />
        <Button text={'See Product'} func={() => navigate(`/ProductDetails/${_id}`)}/>

@@ -1,0 +1,31 @@
+.filter-wrapper-input {
+    position:relative;
+}
+
+.filter-input {
+    padding:0.7rem 1rem 0.7rem 0.7rem;
+    width:100%;
+    border-radius:var(--border-radius-big);
+    border: 2px solid var(--color-green-light);
+}
+
+.filter-input:focus {
+    outline:1px solid var(--color-green); ;
+}
+
+.icon-filter {
+    position:absolute;
+    right:1rem;
+    bottom:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: var(--color-pink);
+    font-size: var(--font-regular-text)
+}
+
+.tags-wrapper {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:0.5rem;
+}

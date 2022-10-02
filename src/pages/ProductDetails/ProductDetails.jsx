@@ -7,7 +7,8 @@ import Button from "../../components/UI/Button/Button";
 
 
 export default function ProductDetails() {
-  const { allProducts, loading } = useContext(Context);
+  const { dataState, loading } = useContext(Context);
+
 
   const [product, setProduct] = useState({});
 
@@ -15,11 +16,11 @@ export default function ProductDetails() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (allProducts.length) {
-      const itemFound = allProducts.find((product) => product._id === id);
+    if (dataState.allProducts.length) {
+      const itemFound = dataState.allProducts.find((product) => product._id === id);
       itemFound ? setProduct(itemFound) : navigate("/NotFound");
     }
-  }, [allProducts]);
+  }, [dataState.allProducts]);
 
   return (
     <div className={styles['product-details-wrapper']}>

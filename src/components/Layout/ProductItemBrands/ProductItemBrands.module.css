@@ -1,9 +1,8 @@
 .brand {
     padding:0.4rem;
     border-radius: var(--border-radius-big);
-    background-color: var(--color-green-light);
-    color: var(--color-white);
-    font-family: var(--archivo-font);
+    color: var(--color-black);
+    font-family: var(--bodoni-font);
     position:absolute;
     bottom:1rem;
     right:1rem;

@@ -22,17 +22,19 @@ export default function ProductDetailsMain({product}) {
 
     
   return (
-    <Card>
-        <div className={styles['product-details-box']}>
-          <ProductItemTitle
+    <div className={styles['product-details-item']}>
+      <ProductItemTitle
             title={product_name}
             image={image_url}
             size={"big"}
           />
+           <Card>
+        <div className={styles['product-details-box']}>
          <ProductDetailsCountries countries={allCountries}/>
          <ProductDetailsInfoItem product={product}/>
          <ProductItemBrands brands={brands}/>
         </div>
       </Card>
+    </div>
   )
 }

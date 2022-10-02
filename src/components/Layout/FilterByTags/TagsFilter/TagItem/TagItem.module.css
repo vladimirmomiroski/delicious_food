@@ -1,0 +1,9 @@
+.tag-item {
+ padding:0.1rem 0.2rem;
+ background-color: var(--color-pink-light);
+ border-radius: var(--border-radius-small);
+}
+
+.tag-item:not(:last-child) {
+    margin-right:0.5rem;
+}

@@ -6,10 +6,11 @@ import HomeProductsItem from './HomeProductsItem/HomeProductsItem'
 
 export default function HomeProducts() {
 
-    const { filteredProducts } = useContext(Context)
+    const { dataState } = useContext(Context)
+
   return (
     <div className={styles['products-wrapper']}>
-        {filteredProducts.map(meal => (
+        {dataState.products.map(meal => (
             <HomeProductsItem key={meal._id} product={meal} />
         ))}
     </div>

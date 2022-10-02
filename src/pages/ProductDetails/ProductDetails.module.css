@@ -1,7 +1,11 @@
 .product-details-wrapper {
-    width:80%;
-    margin: 0 auto;
-    padding: 5rem 0;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
 }
 
-
+@media (max-width: 550px) {
+  .product-details-wrapper {
+    width: 90%;
+  }
+}
