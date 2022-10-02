@@ -51,7 +51,8 @@ const onTagsSearchHandler = () => {
         let stringUrl = ''
         tags.forEach((tag, idx) => {
           const tagTypeIdx = idx + 1
-          stringUrl += `tagtype_${tagTypeIdx}=ingredients&tag_contains_${tagTypeIdx}=contains&tag_${tagTypeIdx}=${tag}&`
+          const tagLowerCase = tag.toLowerCase()
+          stringUrl += `tagtype_${tagTypeIdx}=ingredients&tag_contains_${tagTypeIdx}=contains&tag_${tagTypeIdx}=${tagLowerCase}&`
         })
         const filteredByTagsUrl = base_url + stringUrl + end_url
         fetchingData(filteredByTagsUrl)
