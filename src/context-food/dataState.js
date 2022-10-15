@@ -7,12 +7,13 @@ export const dataStateReducer = (state, action) => {
       );
        state.products = action.payload.slice(state.startingPoint, state.endPoint)
        state.allProducts = action.payload;
+       state.page = 1
       return {
          ...state,
       };
       case 'PAGE_NUMBER':
         state.endPoint = action.payload * state.itemsPerPage
-        state.startingPoint = state.endPoint - 9
+        state.startingPoint = state.endPoint - state.itemsPerPage
         state.products = state.allProducts.slice(state.startingPoint, state.endPoint)
         state.page = action.payload
         return {...state};
